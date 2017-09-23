@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>megasync.portable</id>
+    <version>3.1.4</version>
+    <title>MEGAsync (Portable)</title>
+    <authors>Alan</authors>
+    <owners>Alan</owners>
+    <licenseUrl>https://mega.nz/copyright</licenseUrl>
+    <projectUrl>https://mega.nz/</projectUrl>
+    <!-- <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/putty.portable</packageSourceUrl> -->
+    <iconUrl>https://pbs.twimg.com/profile_images/556969479490392064/Jn3ynwn4_400x400.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+# Secure Global Access
+
+Your data is accessible anytime. Use a web browser or one of our powerful apps, available for all major platforms.
+
+
+# End-to-End Encryption
+
+Unlike most other cloud storage providers, only you control who has access to your data. Not even MEGA can access it!
+
+
+# Secure Collaboration
+
+Share data and communicate with your contacts securely, and see their updates in real time.
+
+
+# Massive Storage Space
+
+Not only are we more secure than our major competitors, we also provide a more generous amount of free storage.
+
+
+# Live Encrypted Backup
+
+With our real-time file synchronisation and versioning features, your data is always safe and recoverable.
+
+
+# Public Source Code
+
+To enable independent verification of the correctness and integrity of our crypto model and its implementation, we publish the full source code of our client apps.
+    </description>
+    <summary>We make secure cloud storage simple. Create an account and get 50 GB free on MEGA's end-to-end encrypted cloud collaboration platform today!.</summary>
+    <tags>mega megasync cloud storage synchronisation sync</tags>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
