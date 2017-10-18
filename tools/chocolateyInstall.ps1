@@ -7,7 +7,7 @@ $url = 'https://mega.nz/MEGAsyncSetup.exe'
 Get-ChocolateyWebFile $packageName $fileFullPath $url
 
 $packageArgs = @{
-    PackageName = "megasync.portable"
+    PackageName = "megasync"
     File        = $fileFullPath
     File64      = $fileFullPath
     Destination = $toolsPath
@@ -15,4 +15,4 @@ $packageArgs = @{
 Get-ChocolateyUnzip @packageArgs
 
 Remove-Item -force "$toolsPath\*.zip" -ea 0
-Install-ChocolateyShortcut -ShortcutFilePath "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\MEGAsync (Portable).lnk" -TargetPath "$toolsPath\MEGAsync.exe"
+Install-ChocolateyShortcut -ShortcutFilePath "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\MEGAsync.lnk" -TargetPath "$toolsPath\MEGAsync.exe"

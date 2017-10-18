@@ -2,14 +2,13 @@
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>megasync.portable</id>
+    <id>megasync</id>
     <version>3.1.4</version>
-    <title>MEGAsync (Portable)</title>
-    <authors>Alan</authors>
+    <title>MEGAsync</title>
+    <authors>Mega Limited</authors>
     <owners>Alan</owners>
     <licenseUrl>https://mega.nz/copyright</licenseUrl>
     <projectUrl>https://mega.nz/</projectUrl>
-    <!-- <packageSourceUrl>https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/putty.portable</packageSourceUrl> -->
     <iconUrl>https://pbs.twimg.com/profile_images/556969479490392064/Jn3ynwn4_400x400.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>

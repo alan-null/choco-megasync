@@ -1,4 +1,4 @@
-. $PSScriptRoot\..\megasync.portable\update.ps1
+. $PSScriptRoot\..\megasync\update.ps1
 
 if ($MyInvocation.InvocationName -ne '.') { # run the update only if the script is not sourced
   function global:au_BeforeUpdate {
